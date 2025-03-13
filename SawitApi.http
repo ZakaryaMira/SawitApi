@@ -1,0 +1,6 @@
+@SawitApi_HostAddress = http://localhost:5287
+
+GET {{SawitApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
