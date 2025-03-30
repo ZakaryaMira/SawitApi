@@ -26,7 +26,7 @@ namespace SawitApi.Models
 
         /* public Campagne ?Campagne {get ; set ;}  */
         public List<Campagne> Campagnes {get ; set ;} = [];
-        public List<Candicate>  Candidates {get ; set ;} = []; //Candicates
+        public List<Candidate>  Candidate {get ; set ;} = []; //Candidates
         public List<Experience> Experience {get ; set ;} = [];
         public List<Post> Post {get ; set ;} = [];
         public List<Vote> Vote {get ; set ;} = []; 

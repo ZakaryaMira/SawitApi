@@ -12,6 +12,8 @@ namespace SawitApi.Models
         public int UserId { get; set; }
         [Required]
         public required string ExpeienceDescription { get; set; }
+
+        /* relationship */
         public virtual User User { get; set; } = null!;
     }
 }

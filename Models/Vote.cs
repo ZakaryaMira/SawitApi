@@ -15,7 +15,7 @@ namespace SawitApi.Models
         [ForeignKey("Campagne")] 
         public int CampagneId { get; set; }
 
-        [ForeignKey("Candicate")]
+        [ForeignKey("Candidate")]
         public int CandidateId { get; set; }
 
         public DateTime VotedAT { get; set; } = DateTime.UtcNow;
